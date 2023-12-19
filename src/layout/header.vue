@@ -41,13 +41,6 @@
           type="down"
         />
       </div>
-      <!-- 路由记录器 -->
-      <div
-        class="history"
-        v-show="!isPlayerShow"
-      >
-        <RoutesHistory />
-      </div>
     </div>
     <div class="right">
       <div class="search-wrap">

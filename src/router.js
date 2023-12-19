@@ -14,7 +14,7 @@ const Mvs = () => import(/* webpackChunkName: "Mvs" */ '@/page/mvs')
 const Mv = () => import(/* webpackChunkName: "Mv" */ '@/page/mv')
 
 // 内容需要居中的页面
-export const layoutCenterNames = ['discovery', 'playlists', 'songs', 'mvs']
+export const layoutCenterNames = ['discovery', 'playlists', 'songs']
 
 // 需要显示在侧边栏菜单的页面
 export const menuRoutes = [
@@ -43,15 +43,6 @@ export const menuRoutes = [
     meta: {
       title: '最新音乐',
       icon: 'yinyue',
-    },
-  },
-  {
-    path: '/mvs',
-    name: 'mvs',
-    component: Mvs,
-    meta: {
-      title: '最新MV',
-      icon: 'mv',
     },
   },
 ]

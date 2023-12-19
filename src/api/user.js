@@ -1,4 +1,5 @@
 import { requestWithoutLoading } from '@/utils'
+export const LoginBypwd = (usrname,pwd) => requestWithoutLoading.get("/login/cellphone",{params:{phone:usrname,password:pwd}})
 
 export const getUserDetail = (uid) => requestWithoutLoading.get("/user/detail", { params: { uid } })
 

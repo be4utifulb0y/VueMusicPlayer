@@ -18,7 +18,7 @@ import ShareReader from "@/components/share-reader"
 export default {
   metaInfo() {
     return {
-      title: "欢迎~"
+      title: "Welcome~"
     }
   },
   components: { Layout, MiniPlayer, Playlist, Player, ShareReader }
